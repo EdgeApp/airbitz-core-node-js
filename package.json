@@ -2,7 +2,7 @@
   "name": "airbitz-io-node-js",
   "version": "0.2.0",
   "description": "IO dependencies for running airbitz-core-js on node.js",
-  "url": "https://airbitz.co",
+  "homepage": "https://airbitz.co",
   "author": "Airbitz, Inc.",
   "contributors": [
     "William Swanson <william@airbitz.co>"
