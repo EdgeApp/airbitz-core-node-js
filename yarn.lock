@@ -233,9 +233,9 @@ del@^2.0.2:
     pinkie-promise "^2.0.0"
     rimraf "^2.2.8"
 
-disklet@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/disklet/-/disklet-0.1.1.tgz#9574ae77b2ef8ee1d78ae9a1aeb77d59e24d8c7e"
+disklet@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/disklet/-/disklet-0.1.2.tgz#b90a7425e94e12fc1b30676e8fa358bc9eeb5fec"
   dependencies:
     rfc4648 "^0.9.1"
 

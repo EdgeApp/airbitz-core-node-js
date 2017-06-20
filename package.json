@@ -24,7 +24,7 @@
     "prepublish": "npm run lint && npm run build"
   },
   "dependencies": {
-    "disklet": "^0.1.1",
+    "disklet": "^0.1.2",
     "node-fetch": "^1.6.3"
   },
   "devDependencies": {
