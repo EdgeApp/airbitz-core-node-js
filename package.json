@@ -1,6 +1,6 @@
 {
   "name": "airbitz-io-node-js",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "IO dependencies for running airbitz-core-js on node.js",
   "homepage": "https://airbitz.co",
   "license": "SEE LICENSE IN LICENSE",
