@@ -4,15 +4,16 @@ This library creates an `io` object with all the depenencies needed to run [`air
 
 Use it like this:
 
-```js
-import { makeContext } from 'airbitz-core-js'
-import { makeNodeIo } from 'airbitz-io-node-js'
+```javascript
+import { makeNodeContext } from 'airbitz-io-node-js'
 
-const context = makeContext({
+const context = makeNodeContext({
   apiKey: '...',
   appId: '...',
-  io: makeNodeIo('/path/for/saving/data')
+  path: '/path/for/saving/data'
 })
 ```
 
-The Airbitz core will save all login data under the provided path.
+The Airbitz core will save all login data under the provided `path` option.
+
+There is also a standalone `makeNodeIo(path: string)` function if you would like to inspect or modify the `io` object before passing it to the core's `makeContext` function.

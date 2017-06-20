@@ -3,9 +3,11 @@ const packageJson = require('./package.json')
 
 export default {
   entry: 'src/index.js',
-  external: ['crypto'].concat(
-    Object.keys(packageJson.dependencies)
-  ),
+  external: [
+    'crypto',
+    ...Object.keys(packageJson.dependencies),
+    ...Object.keys(packageJson.peerDependencies)
+  ],
   plugins: [buble()],
   targets: [
     {
